@@ -19,14 +19,14 @@ public class main{
         for(int i = 0; i < N; i++) {
             array[i] = scanner.nextInt();
         }
-        //find min number in massive
-        int min = array[0];
+        //find max number in massive
+        int max = array[0];
         for(int i = 1; i < N; i++){
-            if(array[i]<min){
-                min = array[i];
+            if(array[i]>max){
+                max = array[i];
             }
         }
-        System.out.println("Min number:" + min);
+        System.out.println("Max number:" + max);
     }
 }
 
