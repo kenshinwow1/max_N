@@ -19,7 +19,7 @@ public class main{
         for(int i = 0; i < N; i++) {
             array[i] = scanner.nextInt();
         }
-        //find max number in massive
+        //find max number in massive1
         int max = array[0];
         for(int i = 1; i < N; i++){
             if(array[i]>max){
